@@ -835,7 +835,7 @@ class Select extends React.Component {
 		return (
 			<span
 				className="Select-arrow-zone"
-				onMouseDown={onMouseDown}
+				onClick={onMouseDown}
 			>
 				{arrow}
 			</span>
