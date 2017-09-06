@@ -1537,7 +1537,8 @@ var Select$1 = function (_React$Component) {
 				'span',
 				{
 					className: 'Select-arrow-zone',
-					onClick: onMouseDown
+					onMouseDown: onMouseDown,
+					onTouchEnd: onMouseDown
 				},
 				arrow
 			);
